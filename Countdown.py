@@ -9,6 +9,6 @@ while True:
     while when_to_stop > 0:
        m, s = divmod(when_to_stop, 60)
        h, m = divmod(m, 60)
-        print(str(h) + ":" + str(m) + : + str(s))
+print(str(h) + ":" + str(m) + : + str(s))
         when_to_stop -= 1
         
